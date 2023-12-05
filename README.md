@@ -45,7 +45,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 4. What are the least and most expensive italian dishes on the menu ?
 5. How many dishes are in each category ?
 6. What is the average dish price within each category ?
-
+--
 1. What is the date range of the table ?
 2. How many orders where made within this date range ?
 3. How many items where ordered within this date range ?
@@ -64,7 +64,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 1. View the menu_items table.
 ```SELECT *
-FROM menu_items;```
+FROM menu_items```
 
 2. Find the number of items on the menu
 
