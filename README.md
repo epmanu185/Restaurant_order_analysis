@@ -45,7 +45,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 4. What are the least and most expensive italian dishes on the menu ?
 5. How many dishes are in each category ?
 6. What is the average dish price within each category ?
---
+---
 1. What is the date range of the table ?
 2. How many orders where made within this date range ?
 3. How many items where ordered within this date range ?
@@ -63,53 +63,71 @@ EDA involved exploring the sales data to answer key questions, such as:
 ### Data analysis
 
 1. View the menu_items table.
-```SELECT *
-FROM menu_items```
+```
+SELECT *
+FROM menu_items
+```
 
 2. Find the number of items on the menu
 
-```SELECT COUNT(*)
-FROM menu_items;```
+```
+SELECT COUNT(*)
+FROM menu_items;
+```
 
 3. What are the least and most expensive item on the menu ?
 
-```SELECT *
+```
+SELECT *
 FROM menu_items
-ORDER BY price;```
+ORDER BY price;
+```
 
-```SELECT *
+```
+SELECT *
 FROM menu_items
-ORDER BY price DESC;```
+ORDER BY price DESC;
+```
 
 4. How many italian dishes are on the menu ?
 
-```SELECT COUNT(*)
+```
+SELECT COUNT(*)
 FROM menu_items
-WHERE category = 'italian';```
+WHERE category = 'italian';
+```
 
 5. What are the least and most expensive italian dishes on the menu ?
 
-```SELECT *
+```
+SELECT *
 FROM menu_items
 WHERE category = 'italian'
-ORDER BY price;```
+ORDER BY price;
+```
 
-```SELECT *
+```
+SELECT *
 FROM menu_items
 WHERE category = 'italian'
-ORDER BY price DESC;```
+ORDER BY price DESC;
+```
 
 6. How many dishes are in each category ?
 
-```SELECT category, COUNT(*)
+```
+SELECT category, COUNT(*)
 FROM menu_items
-GROUP BY category;```
+GROUP BY category;
+```
 
 7. What is the average dish price within each category ?
 
-```SELECT category, AVG(price)
+```
+SELECT category, AVG(price)
 FROM menu_items
-GROUP BY category;```
+GROUP BY category;
+```
 
 ### Results / Findings
 
