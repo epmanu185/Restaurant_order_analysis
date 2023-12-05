@@ -10,9 +10,7 @@ Analyze order data to identify the most and least popular menu items and types o
 5. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 6. [Data analysis](#Data-analysis)
 7. [Results / Findings](#Results-/-Findings)
-8. [Recommendations](#Recommendations)
-9. [Limitations](#Limitations)
-10. [References](#References)
+8. [References](#References)
 
 ### Project overview
 
@@ -229,11 +227,10 @@ GROUP BY order_id, category;
 ### Results / Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+1. The most and least expensive item in the Restaurant is Shrim scrampi(Italian)& Edamame(Asian).
+2. The most and least ordered items are American Hamburger & Mexican Chicken Tacos.
 
 ### References
 
-1.Maven Analytics.
+Maven Analytics.
    
