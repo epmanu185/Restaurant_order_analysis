@@ -60,6 +60,11 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 ### Data analysis
 
+``` SQL
+SELECT * FROM sales
+WHERE sales_amount > 100;
+```
+
 1. View the menu_items table.
 ```
 SELECT *
